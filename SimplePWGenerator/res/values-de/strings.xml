@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Passwort-Generator</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="title_section1">Verursachen</string>
+    <string name="title_section2">Einstellungen</string>
+    <string name="title_section3">Aufzeichnungen</string>
+    <string name="btn_generate">ERZEUGEN</string>
+    <string name="txt_description">Drücken Sie erzeugen ein neues Passwort erstellen</string>
+    <string name="value16">16</string>
+    <string name="txt_pw_length">&#160;&#160;Länge des Passworts</string>
+    <string name="blank4">&#160;&#160;&#160;&#160;</string>
+    <string name="scOFF">Sonderzeichen NEIN</string>
+    <string name="scON">Sonderzeichen JA</string>
+    <string name="numOFF">Zahlen NEIN</string>
+    <string name="numON">Zahlen JA</string>
+    <string name="about">Begleiten Sie uns, um uns zu wachsen, um sich gemeinsam vom Anfänger bis zum Experten dieser wunderbaren Betriebssystem.\n\nOffen Tag Team ist ein Ort für alle, beginnend mit Ihnen.</string>
+
+</resources>

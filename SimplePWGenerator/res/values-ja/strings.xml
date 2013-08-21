@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">パスワードジェネレータ</string>
+    <string name="action_settings">設定</string>
+    <string name="title_section1">生成する</string>
+    <string name="title_section2">設定</string>
+    <string name="title_section3">注釈</string>
+    <string name="btn_generate">生成する</string>
+    <string name="txt_description">賞は、新しいパスワードを作成するために生成</string>
+    <string name="value16">16</string>
+    <string name="txt_pw_length">&#160;&#160;パスワードの長さ</string>
+    <string name="blank4">&#160;&#160;&#160;&#160;</string>
+    <string name="scOFF">特殊文字 - ノー</string>
+    <string name="scON">特殊文字 - はい</string>
+    <string name="numOFF">数字 - ノー</string>
+    <string name="numON">数字 - はい</string>
+    <string name="about">自分自身を成長させるために私達を結合し、この素晴らしいオペレーティングシステムの専門家に初心者から一緒になること。\n\nオープン札のチームはあなたと一緒に始めて、皆のための場所です。</string>
+
+</resources>

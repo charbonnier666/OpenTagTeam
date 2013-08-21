@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">генератор паролей</string>
+    <string name="action_settings">настройки</string>
+    <string name="title_section1">генерировать</string>
+    <string name="title_section2">настройки</string>
+    <string name="title_section3">ноты</string>
+    <string name="btn_generate">генерировать</string>
+    <string name="txt_description">Нажмите генерировать создать новый пароль</string>
+    <string name="value16">16</string>
+    <string name="txt_pw_length">&#160;&#160;длина пароля</string>
+    <string name="blank4">&#160;&#160;&#160;&#160;</string>
+    <string name="scOFF">специальные символы - нет</string>
+    <string name="scON">специальные символы - да</string>
+    <string name="numOFF">номера - нет</string>
+    <string name="numON">номера - да</string>
+    <string name="about">Присоединитесь к нам растить себя, чтобы стать вместе от новичков до экспертов этой замечательной операционной системы.\n\nОткрытый командный тег является местом для всех, начиная с вами.</string>
+
+</resources>

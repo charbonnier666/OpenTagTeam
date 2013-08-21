@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ژنراتور رمز عبور</string>
+    <string name="action_settings">تنظیمات</string>
+    <string name="title_section1">تولید</string>
+    <string name="title_section2">تنظیمات</string>
+    <string name="title_section3">یادداشت ها</string>
+    <string name="btn_generate">تولید</string>
+    <string name="txt_description">فشار تولید برای ایجاد رمز عبور جدید</string>
+    <string name="value16">16</string>
+    <string name="txt_pw_length">&#160;&#160;طول رمز عبور</string>
+    <string name="blank4">&#160;&#160;&#160;&#160;</string>
+    <string name="scOFF">کاراکترهای خاص - بدون</string>
+    <string name="scON">کاراکترهای خاص - بله</string>
+    <string name="numOFF">شماره - هیچ</string>
+    <string name="numON">شماره - بله</string>
+    <string name="about">به خودمان رشد ما بپیوندید، با هم برای تبدیل شدن به را از مبتدی کارشناسان از این سیستم عامل فوق العاده.
+تگ تیم باز مکانی است برای همه است، با شروع با شما.</string>
+
+</resources>

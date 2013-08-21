@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">पासवर्ड जनरेटर</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="title_section1">उत्पन्न</string>
+    <string name="title_section2">सेटिंग्स</string>
+    <string name="title_section3">नोट्स</string>
+    <string name="btn_generate">उत्पन्न</string>
+    <string name="txt_description">एक नया पासवर्ड बनाने के लिए उत्पन्न प्रेस</string>
+    <string name="value16">16</string>
+    <string name="txt_pw_length">&#160;&#160;पासवर्ड लंबाई</string>
+    <string name="blank4">&#160;&#160;&#160;&#160;</string>
+    <string name="scOFF">विशेष वर्ण - नहीं</string>
+    <string name="scON">विशेष वर्ण - हां</string>
+    <string name="numOFF">नंबर - नहीं</string>
+    <string name="numON">नंबर - हां</string>
+    <string name="about">नौसिखिए से इस अद्भुत ऑपरेटिंग सिस्टम के विशेषज्ञों को एक साथ हो जाते हैं, अपने आप को विकसित करने के लिए हमें शामिल हों.\n\nओपन टैग टीम आप के साथ शुरू करने, सभी के लिए एक जगह है.</string>
+
+</resources>

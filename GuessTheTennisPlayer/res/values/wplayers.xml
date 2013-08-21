@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="wnames">
+        <item>Williams, S</item>
+        <item>Azarenka</item>
+        <item>Sharapova</item>
+        <item>Radwanska</item>
+        <item>Errani</item>
+        <item>Li</item>
+        <item>Bartoli</item>
+        <item>Wozniacki</item>
+        <item>Kvitova</item>
+        <item>Kerber</item>
+        <item>Jankovic</item>
+        <item>Vinci</item>
+        <item>Stosur</item>
+        <item>Flipkens</item>
+        <item>Ivanovic</item>
+        <item>Kirilenko</item>
+        <item>Stephens</item>
+        <item>Lisicki</item>
+        <item>Cibulkova</item>
+        <item>Suarez Navarro</item>
+        <item>Cirstea</item>
+        <item>Petrova</item>
+        <item>Halep</item>
+        <item>Vesnina</item>
+        <item>Hampton</item>
+        <item>Makarova</item>
+        <item>Kanepi</item>
+        <item>Cornet</item>
+        <item>Kuznetsova</item>
+        <item>Barthel</item>
+        <item>Rybarikova</item>
+        <item>Robson</item>
+        <item>Zakopalova</item>
+        <item>Pavlyuchenkova</item>
+        <item>Lepchenko</item>
+        <item>Peng</item>
+        <item>Mladenovic</item>
+        <item>Safarova</item>
+        <item>Radwanska</item>
+        <item>Keys</item>
+        <item>Hsieh</item>
+        <item>Niculescu</item>
+        <item>Petkovic</item>
+        <item>Svitolina</item>
+        <item>Oprandi</item>
+        <item>Hantuchova</item>
+        <item>Voegele</item>
+        <item>Goerges</item>
+        <item>Beck</item>
+        <item>Puig</item>
+        <item>Jovanovski</item>
+        <item>Morita</item>
+        <item>Dominguez Lino</item>
+        <item>Mattek-Sands</item>
+        <item>Zheng</item>
+        <item>Schiavone</item>
+        <item>Bouchard</item>
+        <item>Wickmayer</item>
+        <item>Knapp</item>
+        <item>Williams, V</item>
+        <item>Tsurenko</item>
+        <item>Muguruza</item>
+        <item>Date-Krumm</item>
+        <item>Meusburger</item>
+        <item>Vekic</item>
+        <item>Erakovic</item>
+        <item>Pironkova</item>
+        <item>Bertens</item>
+        <item>Soler-Espinosa</item>
+        <item>Davis</item>
+        <item>Ormaechea</item>
+        <item>Pliskova</item>
+        <item>Cadantu</item>
+        <item>Begu</item>
+        <item>Govortsova</item>
+        <item>Garcia</item>
+        <item>Watson</item>
+        <item>Voskoboeva</item>
+        <item>Scheepers</item>
+        <item>Peer</item>
+        <item>Larsson</item>
+        <item>Shvedova</item>
+        <item>Hercog</item>
+        <item>Hradecka</item>
+        <item>Puchkova</item>
+        <item>Pennetta</item>
+        <item>Arruabarrena</item>
+        <item>Cepelova</item>
+        <item>Dolonc</item>
+        <item>Martic</item>
+        <item>Arvidsson</item>
+        <item>Doi</item>
+        <item>Putintseva</item>
+        <item>Razzano</item>
+        <item>Riske</item>
+        <item>Fichman</item>
+        <item>Burdette</item>
+        <item>Medina Garrigues</item>
+        <item>Pfizenmaier</item>
+        <item>Duque-Marino</item>
+    </string-array>
+
+</resources>

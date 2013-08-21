@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="names">
+        <item>Djokovic</item>
+        <item>Nadal</item>
+        <item>Murray</item>
+        <item>Ferrer</item>
+        <item>Berdych</item>
+        <item>Del Potro</item>
+        <item>Federer</item>
+        <item>Tsonga</item>
+        <item>Gasquet</item>
+        <item>Wawrinka</item>
+        <item>Raonic</item>
+        <item>Nishikori</item>
+        <item>Haas</item>
+        <item>Isner</item>
+        <item>Janowicz</item>
+        <item>Almagro</item>
+        <item>Simon</item>
+        <item>Fognini</item>
+        <item>Cilic</item>
+        <item>Anderson</item>
+        <item>Tipsarevic</item>
+        <item>Robredo</item>
+        <item>Seppi</item>
+        <item>Youzhny</item>
+        <item>Kohlschreiber</item>
+        <item>Lopez</item>
+        <item>Paire</item>
+        <item>Dimitrov</item>
+        <item>Querrey</item>
+        <item>Verdasco</item>
+        <item>Monaco</item>
+        <item>Melzer</item>
+        <item>Gulbis</item>
+        <item>Benneteau</item>
+        <item>Tursunov</item>
+        <item>Chardy</item>
+        <item>Dodig</item>
+        <item>Dolgopolov</item>
+        <item>Pospisil</item>
+        <item>Nieminen</item>
+        <item>Davydenko</item>
+        <item>Granollers</item>
+        <item>Monfils</item>
+        <item>Montanes</item>
+        <item>Rosol</item>
+        <item>Klizan</item>
+        <item>Mayer</item>
+        <item>Berlocq</item>
+        <item>Llodra</item>
+        <item>Zeballos</item>
+        <item>Brands</item>
+        <item>Tomic</item>
+        <item>Baghdatis</item>
+        <item>Hanescu</item>
+        <item>Andujar</item>
+        <item>Matosevic</item>
+        <item>Delbonis</item>
+        <item>Stepanek</item>
+        <item>Haase</item>
+        <item>Gimeno-Traver</item>
+        <item>Zemlja</item>
+        <item>Lu</item>
+        <item>Mannarino</item>
+        <item>Bautista</item>
+        <item>Istomin</item>
+        <item>Goffin</item>
+        <item>Hewitt</item>
+        <item>Roger-Vasselin</item>
+        <item>Sijsling</item>
+        <item>Kubot</item>
+        <item>De Schepper</item>
+        <item>Troicki</item>
+        <item>Garcia-Lopez</item>
+        <item>Ramos</item>
+        <item>Bogomolov Jr.</item>
+        <item>Carreno Busta</item>
+        <item>Sela</item>
+        <item>Karlovic</item>
+        <item>Lorenzi</item>
+        <item>Mahut</item>
+        <item>Mayer</item>
+        <item>Vesely</item>
+        <item>Donskoy</item>
+        <item>Kuznetsov</item>
+        <item>Lacko</item>
+        <item>Giraldo</item>
+        <item>Sock</item>
+        <item>Becker</item>
+        <item>Haider-Maurer</item>
+        <item>Stakhovsky</item>
+        <item>Kamke</item>
+        <item>Russell</item>
+        <item>Falla</item>
+        <item>Pella</item>
+        <item>Rufin</item>
+        <item>Sousa</item>
+        <item>Harrison</item>
+        <item>Struff</item>
+        <item>Huta Galung</item>
+        <item>Blake</item>
+    </string-array>
+
+</resources>

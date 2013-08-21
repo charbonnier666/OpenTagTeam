@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">密码生成器</string>
+    <string name="action_settings">设置</string>
+    <string name="title_section1">产生</string>
+    <string name="title_section2">设置</string>
+    <string name="title_section3">笔记</string>
+    <string name="btn_generate">产生</string>
+    <string name="txt_description">按生成创建一个新的密码</string>
+    <string name="value16">16</string>
+    <string name="txt_pw_length">&#160;&#160;密码的长度</string>
+    <string name="blank4">&#160;&#160;&#160;&#160;</string>
+    <string name="scOFF">特殊字符不</string>
+    <string name="scON">特殊字符</string>
+    <string name="numOFF">没有数字</string>
+    <string name="numON">数字</string>
+    <string name="about">加入我们自己成长，一起成为这个美好的操作系统，从初学者到专家。\n\n打开双打是大家的地方，开始与你。</string>
+
+</resources>

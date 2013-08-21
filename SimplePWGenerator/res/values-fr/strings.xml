@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Générateur de mot de passe</string>
+    <string name="action_settings">réglages</string>
+    <string name="title_section1">Générer</string>
+    <string name="title_section2">réglages</string>
+    <string name="title_section3">notes</string>
+    <string name="btn_generate">GÉNÉRATION</string>
+    <string name="txt_description">Appuyez sur Générer pour créer un nouveau mot de passe</string>
+    <string name="value16">16</string>
+    <string name="txt_pw_length">&#160;&#160;Longueur du mot de passe</string>
+    <string name="blank4">&#160;&#160;&#160;&#160;</string>
+    <string name="scOFF">Caractères Spéciaux NON</string>
+    <string name="scON">Caractères Spéciaux OUI</string>
+    <string name="numOFF">Numéros NON</string>
+    <string name="numON">Numéros OUI</string>
+    <string name="about">Rejoignez-nous à nous développer, à devenir ensemble des novices aux experts de ce merveilleux système d\'exploitation.\n\nOuvert Tag Team est un endroit pour tout le monde, à commencer par vous.</string>
+
+</resources>

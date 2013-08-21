@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">مولد كلمة السر</string>
+    <string name="action_settings">إعدادات</string>
+    <string name="title_section1">توليد</string>
+    <string name="title_section2">إعدادات</string>
+    <string name="title_section3">تلاحظ</string>
+    <string name="btn_generate">توليد</string>
+    <string name="txt_description">اضغط تولد لإنشاء كلمة مرور جديدة</string>
+    <string name="value16">16</string>
+    <string name="txt_pw_length">&#160;&#160;طول كلمة السر</string>
+    <string name="blank4">&#160;&#160;&#160;&#160;</string>
+    <string name="scOFF">أحرف خاصة - لا</string>
+    <string name="scON">أحرف خاصة - نعم</string>
+    <string name="numOFF">أرقام - لا</string>
+    <string name="numON">أرقام - نعم</string>
+    <string name="about">الانضمام إلينا في النمو أنفسنا، لتصبح معا من المبتدئين إلى خبراء من نظام التشغيل هذا رائع.
+بطاقة فريق المفتوح هو مكان للجميع، بدءا لك.</string>
+
+</resources>

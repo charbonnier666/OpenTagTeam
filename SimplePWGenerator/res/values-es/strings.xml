@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Generador de Contraseñas</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_section1">Genera</string>
+    <string name="title_section2">Ajustes</string>
+    <string name="title_section3">Notas</string>
+    <string name="btn_generate">GENERAR</string>
+    <string name="txt_description">Pulse Generar para crear una nueva contraseña</string>
+    <string name="value16">16</string>
+    <string name="txt_pw_length">&#160;&#160;Longitud de la contraseña</string>
+    <string name="blank4">&#160;&#160;&#160;&#160;</string>
+    <string name="scOFF">Caracteres especiales NO</string>
+    <string name="scON">Caracteres especiales SI</string>
+    <string name="numOFF">Números NO</string>
+    <string name="numON">Números SI</string>
+    <string name="about">Únase a nosotros para crecer nosotros mismos, para ser juntos, desde los principiantes a los expertos de este maravilloso sistema operativo.\n\nEquipo de la etiqueta abierta es un lugar para todos, empezando por ti.</string>
+
+</resources>
