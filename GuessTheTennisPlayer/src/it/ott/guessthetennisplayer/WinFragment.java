@@ -31,6 +31,7 @@ import android.widget.TextView;
  * 
  */
 public class WinFragment extends Fragment implements OnClickListener {
+	// XXX page=2
 	String mExplanation = "";
 	int mScore = 0;
 	boolean mShowSignIn = false;

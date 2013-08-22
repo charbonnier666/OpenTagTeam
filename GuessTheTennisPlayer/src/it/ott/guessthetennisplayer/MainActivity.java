@@ -181,8 +181,19 @@ public class MainActivity extends BaseGameActivity implements MainMenuFragment.L
 	}
 
 	@Override
-	public void onEnteredScore(int score) {
-		// TODO Auto-generated method stub
+	public void onEnteredScore(int requestedScore) {
+		// Compute final score (in easy mode, it's the requested score; in hard mode, it's half)
+		int finalScore = mHardMode ? requestedScore / 2 : requestedScore;
+		mWinFragment.setFinalScore(finalScore);
+		mWinFragment.setExplanation(mHardMode ? getString(R.string.hard_mode_explanation) : getString(R.string.easy_mode_explanation));
+		// check for achievements
+		checkForAchievements(requestedScore, finalScore);
+		// update leaderboards
+		updateLeaderboards(finalScore);
+		// push those accomplishments to the cloud, if signed in
+		pushAccomplishments();
+		// switch to the exciting "you won" screen
+		mViewPager.setCurrentItem(2);
 	}
 
 	@Override
@@ -220,6 +231,72 @@ public class MainActivity extends BaseGameActivity implements MainMenuFragment.L
 	void startGame(boolean hardMode) {
 		mHardMode = hardMode;
 		mViewPager.setCurrentItem(1);
+	}
+
+	/**
+	 * Check for achievements and unlock the appropriate ones.
+	 * 
+	 * @param requestedScore
+	 *            the score the user requested.
+	 * @param finalScore
+	 *            the score the user got.
+	 */
+	void checkForAchievements(int requestedScore, int finalScore) {
+		// Check if each condition is met; if so, unlock the corresponding
+		// achievement.
+		if (isPrime(finalScore)) {
+			mOutbox.mPrimeAchievement = true;
+			achievementToast(getString(R.string.achievement_prime_toast_text));
+		}
+		if (requestedScore == 9999) {
+			mOutbox.mArrogantAchievement = true;
+			achievementToast(getString(R.string.achievement_arrogant_toast_text));
+		}
+		if (requestedScore == 0) {
+			mOutbox.mHumbleAchievement = true;
+			achievementToast(getString(R.string.achievement_humble_toast_text));
+		}
+		if (finalScore == 1337) {
+			mOutbox.mLeetAchievement = true;
+			achievementToast(getString(R.string.achievement_leet_toast_text));
+		}
+		mOutbox.mBoredSteps++;
+	}
+
+	/**
+	 * Update leaderboards with the user's score.
+	 * 
+	 * @param finalScore
+	 *            The score the user got.
+	 */
+	void updateLeaderboards(int finalScore) {
+		if (mHardMode && mOutbox.mHardModeScore < finalScore) {
+			mOutbox.mHardModeScore = finalScore;
+		} else if (!mHardMode && mOutbox.mEasyModeScore < finalScore) {
+			mOutbox.mEasyModeScore = finalScore;
+		}
+	}
+
+	// Checks if n is prime. We don't consider 0 and 1 to be prime.
+	// This is not an implementation we are mathematically proud of, but it gets the job done.
+	boolean isPrime(int n) {
+		int i;
+		if (n == 0 || n == 1)
+			return false;
+		for (i = 2; i <= n / 2; i++) {
+			if (n % i == 0) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	void achievementToast(String achievement) {
+		// Only show toast if not signed in. If signed in, the standard Google Play
+		// toasts will appear, so we don't need to show our own.
+		if (!isSignedIn()) {
+			Toast.makeText(this, getString(R.string.achievement) + ": " + achievement, Toast.LENGTH_LONG).show();
+		}
 	}
 
 	/**

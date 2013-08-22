@@ -30,6 +30,7 @@ import android.widget.TextView;
  * 
  */
 public class MainMenuFragment extends Fragment implements OnClickListener {
+	// XXX page=0
 	String mGreeting = "Hello, anonymous user (not signed in)";
 
 	public interface Listener {

@@ -8,11 +8,14 @@
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
     <string name="about"></string>
+    <!-- gamehelper -->
     <string name="gamehelper_sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
     <string name="gamehelper_app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
     <string name="gamehelper_license_failed">License check failed.</string>
     <string name="gamehelper_unknown_error">Unknown error.</string>
+    <!-- admob -->
     <string name="admob_id">ca-app-pub-6205760010010665/9407162344</string>
+    <!-- play services -->
     <string name="signing_in">Signing in with Google</string>
     <string name="signing_out">Signing out</string>
     <string name="title_activity_main">Type-a-Number Challenge</string>
@@ -28,6 +31,7 @@
     <string name="achievement">Achievement</string>
     <string name="your_progress_will_be_uploaded">Your existing achievements and score will be uploaded shortly.</string>
     <string name="what_score_do_you_deserve">What score do you think you deserve?</string>
+    <!-- buttons texts -->
     <string name="initial_input">0000</string>
     <string name="digit0"> 0 </string>
     <string name="digit1">1</string>

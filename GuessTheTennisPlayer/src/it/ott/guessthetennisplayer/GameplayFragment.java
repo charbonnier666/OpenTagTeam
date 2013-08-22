@@ -31,6 +31,7 @@ import android.widget.TextView;
  * 
  */
 public class GameplayFragment extends Fragment implements OnClickListener {
+	// XXX page=1
 	int mRequestedScore = 5000;
 	static int[] MY_BUTTONS = { R.id.digit_button_0, R.id.digit_button_1, R.id.digit_button_2, R.id.digit_button_3, R.id.digit_button_4,
 			R.id.digit_button_5, R.id.digit_button_6, R.id.digit_button_7, R.id.digit_button_8, R.id.digit_button_9, R.id.digit_button_clear,
