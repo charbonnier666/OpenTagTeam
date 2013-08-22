@@ -17,7 +17,7 @@ public class FullScreenBanner extends Activity implements AdListener {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.play);
+		setContentView(R.layout.frag_gameplay);
 		// Create the interstitial
 		interstitial = new InterstitialAd(this, "ca-app-pub-6205760010010665/7930429146");
 		// Create ad request
