@@ -11,10 +11,12 @@
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;Pangguna Length</string>
     <string name="blank4">&#160;&#160;&#160;&#160;</string>
-    <string name="scOFF">karakter khusus - mati</string>
-    <string name="scON">karakter khusus - ing</string>
-    <string name="numOFF">Nomer - mati</string>
-    <string name="numON">Nomer - ing</string>
+    <string name="scOFF">karakter khusus ORA ANA</string>
+    <string name="scON">karakter khusus YA</string>
+    <string name="numOFF">Nomer ORA ANA</string>
+    <string name="numON">Nomer YA</string>
+    <string name="memorableOFF">Paweling ORA ANA</string>
+    <string name="memorableON">Paweling YA</string>
     <string name="about">Join kita tuwuh kangge kita sesambetan, kanggo dadi siji saka novices kanggo ahli iki apik sistem operasi.\n\nBukak Tag Team punika Panggonan for everyone, miwiti karo sampeyan.</string>
 
 </resources>

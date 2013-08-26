@@ -15,6 +15,8 @@
     <string name="scON">أحرف خاصة - نعم</string>
     <string name="numOFF">أرقام - لا</string>
     <string name="numON">أرقام - نعم</string>
+    <string name="memorableOFF">لا تنسى - لا</string>
+    <string name="memorableON">لا تنسى - نعم</string>
     <string name="about">الانضمام إلينا في النمو أنفسنا، لتصبح معا من المبتدئين إلى خبراء من نظام التشغيل هذا رائع.
 بطاقة فريق المفتوح هو مكان للجميع، بدءا لك.</string>
 

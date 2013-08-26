@@ -15,6 +15,8 @@
     <string name="scON">özel karakterler - Evet</string>
     <string name="numOFF">Numaraları - Hayır</string>
     <string name="numON">Numaraları - Evet</string>
+    <string name="memorableOFF">Unutulmaz - Hayır</string>
+    <string name="memorableON">Unutulmaz - Evet</string>
     <string name="about">Acemiler bu harika işletim sisteminin uzmanları için birlikte olmak için, kendimizi büyümeye bize katılın.\n\nAçık Tag Ekibi ile başlayan, herkes için bir yerdir.</string>
 
 </resources>

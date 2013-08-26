@@ -15,6 +15,8 @@
     <string name="scON">特殊字符</string>
     <string name="numOFF">没有数字</string>
     <string name="numON">数字</string>
+    <string name="memorableOFF">无可储存</string>
+    <string name="memorableON">可存储</string>
     <string name="about">加入我们自己成长，一起成为这个美好的操作系统，从初学者到专家。\n\n打开双打是大家的地方，开始与你。</string>
 
 </resources>

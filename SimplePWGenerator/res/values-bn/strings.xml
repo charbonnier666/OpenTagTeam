@@ -15,6 +15,8 @@
     <string name="scON">বিশেষ অক্ষর - হ্যাঁ</string>
     <string name="numOFF">সংখ্যা - কোন</string>
     <string name="numON">সংখ্যা - হ্যাঁ</string>
+    <string name="memorableOFF">স্মরণীয় - কোন</string>
+    <string name="memorableON">স্মরণীয় - হ্যাঁ</string>
     <string name="about">এই বিস্ময়কর অপারেটিং সিস্টেমের অনভিজ্ঞ বিশেষজ্ঞদের দ্বারা একসাথে হওয়ার জন্য, নিজেদের বাড়া আমাদের সাথে যোগ দিন.\n\nওপেন ট্যাগ টিম আপনার সাথে শুরু, সবার জন্য একটি স্থান.</string>
 
 </resources>

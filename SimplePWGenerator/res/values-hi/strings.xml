@@ -15,6 +15,8 @@
     <string name="scON">विशेष वर्ण - हां</string>
     <string name="numOFF">नंबर - नहीं</string>
     <string name="numON">नंबर - हां</string>
+    <string name="memorableOFF">यादगार - नहीं</string>
+    <string name="memorableON">यादगार - हाँ</string>
     <string name="about">नौसिखिए से इस अद्भुत ऑपरेटिंग सिस्टम के विशेषज्ञों को एक साथ हो जाते हैं, अपने आप को विकसित करने के लिए हमें शामिल हों.\n\nओपन टैग टीम आप के साथ शुरू करने, सभी के लिए एक जगह है.</string>
 
 </resources>

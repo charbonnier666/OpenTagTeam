@@ -15,6 +15,8 @@
     <string name="scON">Sonderzeichen JA</string>
     <string name="numOFF">Zahlen NEIN</string>
     <string name="numON">Zahlen JA</string>
+    <string name="memorableOFF">Denkwürdige NEIN</string>
+    <string name="memorableON">Denkwürdige JA</string>
     <string name="about">Begleiten Sie uns, um uns zu wachsen, um sich gemeinsam vom Anfänger bis zum Experten dieser wunderbaren Betriebssystem.\n\nOffen Tag Team ist ein Ort für alle, beginnend mit Ihnen.</string>
 
 </resources>

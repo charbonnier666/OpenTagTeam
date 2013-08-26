@@ -15,6 +15,8 @@
     <string name="scON">специальные символы - да</string>
     <string name="numOFF">номера - нет</string>
     <string name="numON">номера - да</string>
+    <string name="memorableOFF">Не Памятные - нет</string>
+    <string name="memorableON">Памятный - Да</string>
     <string name="about">Присоединитесь к нам растить себя, чтобы стать вместе от новичков до экспертов этой замечательной операционной системы.\n\nОткрытый командный тег является местом для всех, начиная с вами.</string>
 
 </resources>

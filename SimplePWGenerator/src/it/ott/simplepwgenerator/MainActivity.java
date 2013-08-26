@@ -3,6 +3,7 @@ package it.ott.simplepwgenerator;
 import it.ott.simplepwgenerator.utility.PWUtils;
 import it.ott.simplepwgenerator.utility.Utils;
 
+import java.util.ArrayList;
 import java.util.Locale;
 
 import android.os.Bundle;
@@ -64,12 +65,20 @@ public class MainActivity extends FragmentActivity {
 		TextView lunghezza = (TextView) findViewById(R.id.editText1);
 		ToggleButton spChars = (ToggleButton) findViewById(R.id.toggleButton1);
 		ToggleButton numbers = (ToggleButton) findViewById(R.id.toggleButton2);
+		ToggleButton memorable = (ToggleButton) findViewById(R.id.isMemorableTB);
 		boolean sc = spChars.isChecked();
 		boolean num = numbers.isChecked();
+		boolean memo = memorable.isChecked();
 		int length = Integer.parseInt(lunghezza.getText().toString());
 		// pref
-		Utils.loadPref(this, length, sc, num);
-		String password = PWUtils.generatePassword(length, sc, num);
+		Utils.loadPref(this, length, sc, num, memo);
+		String password = "";
+		if (!memo) {
+			password = PWUtils.generatePassword(length, sc, num);
+		} else {
+			ArrayList<String> quotes = PWUtils.preparePasswordFamiliar();
+			password = PWUtils.generatePasswordFamiliar(length, sc, num, quotes);
+		}
 		TextView out = (TextView) findViewById(R.id.textView1);
 		out.setText(password);
 	}

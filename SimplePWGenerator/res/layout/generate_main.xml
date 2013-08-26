@@ -13,7 +13,7 @@
         android:layout_gravity="center_horizontal"
         android:adjustViewBounds="true"
         android:contentDescription="@string/ott"
-        android:src="@drawable/ott_logo_banner_768x90" />
+        android:src="@drawable/ott_pwg_logo_banner_768x90" />
 
     <TextView
         android:id="@+id/textView5"

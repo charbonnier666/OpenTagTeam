@@ -15,6 +15,8 @@
     <string name="scON">特殊文字 - はい</string>
     <string name="numOFF">数字 - ノー</string>
     <string name="numON">数字 - はい</string>
+    <string name="memorableOFF">思い出 - ノー</string>
+    <string name="memorableON">思い出に残る - はい</string>
     <string name="about">自分自身を成長させるために私達を結合し、この素晴らしいオペレーティングシステムの専門家に初心者から一緒になること。\n\nオープン札のチームはあなたと一緒に始めて、皆のための場所です。</string>
 
 </resources>

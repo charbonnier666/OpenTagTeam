@@ -40,6 +40,9 @@ public class SettingsFragment extends Fragment {
 		boolean num = sharedPref.getBoolean("num", false);
 		ToggleButton numBtn = (ToggleButton) rootView.findViewById(R.id.toggleButton2);
 		numBtn.setChecked(num);
+		boolean memo = sharedPref.getBoolean("memo", false);
+		ToggleButton memoBtn = (ToggleButton) rootView.findViewById(R.id.isMemorableTB);
+		memoBtn.setChecked(memo);
 		//
 		return rootView;
 	}

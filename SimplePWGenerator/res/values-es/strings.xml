@@ -15,6 +15,8 @@
     <string name="scON">Caracteres especiales SI</string>
     <string name="numOFF">Números NO</string>
     <string name="numON">Números SI</string>
+    <string name="memorableOFF">Memorable NO</string>
+    <string name="memorableON">Memorable SI</string>
     <string name="about">Únase a nosotros para crecer nosotros mismos, para ser juntos, desde los principiantes a los expertos de este maravilloso sistema operativo.\n\nEquipo de la etiqueta abierta es un lugar para todos, empezando por ti.</string>
 
 </resources>

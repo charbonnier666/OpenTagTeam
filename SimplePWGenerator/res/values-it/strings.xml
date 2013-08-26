@@ -17,6 +17,8 @@
     <string name="scON">Caratteri Speciali SI</string>
     <string name="numOFF">Numeri NO</string>
     <string name="numON">Numeri SI</string>
+    <string name="memorableOFF">Memorizzabile NO</string>
+    <string name="memorableON">Memorizzabile SI</string>
     
     <string name="about">Unisciti a noi, per crescere noi stessi, per diventare insieme da novizi a esperti di questo meraviglioso sistema operativo.\n\nOpen Tag Team è un posto per tutti, a partire da te.</string>
     

@@ -15,6 +15,8 @@
     <string name="scON">Caractères Spéciaux OUI</string>
     <string name="numOFF">Numéros NON</string>
     <string name="numON">Numéros OUI</string>
+    <string name="memorableOFF">Memorable NON</string>
+    <string name="memorableON">Memorable OUI</string>
     <string name="about">Rejoignez-nous à nous développer, à devenir ensemble des novices aux experts de ce merveilleux système d\'exploitation.\n\nOuvert Tag Team est un endroit pour tout le monde, à commencer par vous.</string>
 
 </resources>
