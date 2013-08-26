@@ -7,6 +7,8 @@
     <string name="title_section2">設定</string>
     <string name="title_section3">注釈</string>
     <string name="btn_generate">生成する</string>
+    <string name="alert_title">警告！</string>
+    <string name="alert_msg">これは、あなたが接続している場合にのみ機能します。</string>
     <string name="txt_description">賞は、新しいパスワードを作成するために生成</string>
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;パスワードの長さ</string>

@@ -7,6 +7,8 @@
     <string name="title_section2">设置</string>
     <string name="title_section3">笔记</string>
     <string name="btn_generate">产生</string>
+    <string name="alert_title">警告！</string>
+    <string name="alert_msg">这只有当你连接工作。</string>
     <string name="txt_description">按生成创建一个新的密码</string>
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;密码的长度</string>

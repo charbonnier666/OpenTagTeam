@@ -7,6 +7,8 @@
     <string name="title_section2">تنظیمات</string>
     <string name="title_section3">یادداشت ها</string>
     <string name="btn_generate">تولید</string>
+    <string name="alert_title">هشدار!</string>
+    <string name="alert_msg">این کار تنها در صورتی که شما متصل شده است.</string>
     <string name="txt_description">فشار تولید برای ایجاد رمز عبور جدید</string>
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;طول رمز عبور</string>

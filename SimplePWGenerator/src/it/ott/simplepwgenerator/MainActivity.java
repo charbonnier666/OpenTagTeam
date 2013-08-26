@@ -76,8 +76,12 @@ public class MainActivity extends FragmentActivity {
 		if (!memo) {
 			password = PWUtils.generatePassword(length, sc, num);
 		} else {
-			ArrayList<String> quotes = PWUtils.preparePasswordFamiliar();
-			password = PWUtils.generatePasswordFamiliar(length, sc, num, quotes);
+			if (Utils.isOnline(getApplicationContext())) {
+				ArrayList<String> quotes = PWUtils.preparePasswordFamiliar();
+				password = PWUtils.generatePasswordFamiliar(length, sc, num, quotes);
+			} else {
+				Utils.internetAlert(this);
+			}
 		}
 		TextView out = (TextView) findViewById(R.id.textView1);
 		out.setText(password);

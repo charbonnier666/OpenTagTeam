@@ -61,19 +61,6 @@
         android:background="@android:color/darker_gray" />
 
     <ToggleButton
-        android:id="@+id/isMemorableTB"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textOff="@string/memorableOFF"
-        android:textOn="@string/memorableON" />
-
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray" />
-
-    <ToggleButton
         android:id="@+id/toggleButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -93,6 +80,27 @@
         android:layout_gravity="center_horizontal"
         android:textOff="@string/numOFF"
         android:textOn="@string/numON" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/internetTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/internet"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ToggleButton
+        android:id="@+id/isMemorableTB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textOff="@string/memorableOFF"
+        android:textOn="@string/memorableON" />
 
     <View
         android:layout_width="fill_parent"

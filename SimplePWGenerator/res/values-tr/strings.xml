@@ -7,6 +7,8 @@
     <string name="title_section2">ayarları</string>
     <string name="title_section3">notlar</string>
     <string name="btn_generate">oluşturmak</string>
+    <string name="alert_title">Uyarı!</string>
+    <string name="alert_msg">Bu Bağlandıktan yalnızca çalışır.</string>
     <string name="txt_description">Yeni bir şifre oluşturmak için oluşturmak düğmesine basın</string>
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;şifre uzunluğu</string>

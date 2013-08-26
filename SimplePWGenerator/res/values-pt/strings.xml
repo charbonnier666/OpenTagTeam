@@ -7,6 +7,8 @@
     <string name="title_section2">Configurações</string>
     <string name="title_section3">Notas</string>
     <string name="btn_generate">GERAR</string>
+    <string name="alert_title">Atenção!</string>
+    <string name="alert_msg">Isso só funciona se você estiver conectado.</string>
     <string name="txt_description">Pressione GERAR para criar uma nova senha</string>
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;Comprimento da Senha</string>

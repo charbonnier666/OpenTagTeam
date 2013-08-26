@@ -7,6 +7,8 @@
     <string name="title_section2">Ajustes</string>
     <string name="title_section3">Notas</string>
     <string name="btn_generate">GENERAR</string>
+    <string name="alert_title">¡Advertencia!</string>
+    <string name="alert_msg">Esto sólo funciona si está conectado.</string>
     <string name="txt_description">Pulse Generar para crear una nueva contraseña</string>
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;Longitud de la contraseña</string>

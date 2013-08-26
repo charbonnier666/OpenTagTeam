@@ -7,6 +7,8 @@
     <string name="title_section2">настройки</string>
     <string name="title_section3">ноты</string>
     <string name="btn_generate">генерировать</string>
+    <string name="alert_title">Внимание!</string>
+    <string name="alert_msg">Это работает, только если вы подключены.</string>
     <string name="txt_description">Нажмите генерировать создать новый пароль</string>
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;длина пароля</string>

@@ -7,6 +7,8 @@
     <string name="title_section2">réglages</string>
     <string name="title_section3">notes</string>
     <string name="btn_generate">GÉNÉRATION</string>
+    <string name="alert_title">Attention!</string>
+    <string name="alert_msg">Cela ne fonctionne que si vous êtes connecté.</string>
     <string name="txt_description">Appuyez sur Générer pour créer un nouveau mot de passe</string>
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;Longueur du mot de passe</string>

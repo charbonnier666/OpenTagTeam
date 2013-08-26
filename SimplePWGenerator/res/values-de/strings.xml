@@ -7,6 +7,8 @@
     <string name="title_section2">Einstellungen</string>
     <string name="title_section3">Aufzeichnungen</string>
     <string name="btn_generate">ERZEUGEN</string>
+    <string name="alert_title">Achtung!</string>
+    <string name="alert_msg">Dies funktioniert nur, wenn Sie verbunden sind.</string>
     <string name="txt_description">Drücken Sie erzeugen ein neues Passwort erstellen</string>
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;Länge des Passworts</string>

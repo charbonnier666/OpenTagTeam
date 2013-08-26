@@ -10,6 +10,8 @@
     
     <string name="btn_generate">GENERATE</string>
     <string name="txt_description">Press GENERATE to create a new Password</string>
+    <string name="alert_title">Warning!</string>
+    <string name="alert_msg">This works only if you\'re connected.</string>
     
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;Password Length</string>
@@ -20,6 +22,7 @@
     <string name="numON">Numbers ON</string>
     <string name="memorableOFF">Memorable OFF</string>
     <string name="memorableON">Memorable ON</string>
+    <string name="internet">(Internet)</string>
     
     <string name="about">Join us to grow ourselves, to become together from novices to experts of this wonderful operating system.\n\nOpen Tag Team is a place for everyone, starting with you.</string>
     <string name="about2">Join us:\n\nhttp://www.facebook.com/OpenTagTeam\n\nhttps://github.com/charbonnier666/OpenTagTeam</string>

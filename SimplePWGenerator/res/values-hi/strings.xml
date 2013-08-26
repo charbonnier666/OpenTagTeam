@@ -7,6 +7,8 @@
     <string name="title_section2">सेटिंग्स</string>
     <string name="title_section3">नोट्स</string>
     <string name="btn_generate">उत्पन्न</string>
+    <string name="alert_title">चेतावनी!</string>
+    <string name="alert_msg">यह आप कनेक्ट हैं, केवल अगर काम करता है.</string>
     <string name="txt_description">एक नया पासवर्ड बनाने के लिए उत्पन्न प्रेस</string>
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;पासवर्ड लंबाई</string>

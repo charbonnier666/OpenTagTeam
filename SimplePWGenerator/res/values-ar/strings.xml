@@ -7,6 +7,8 @@
     <string name="title_section2">إعدادات</string>
     <string name="title_section3">تلاحظ</string>
     <string name="btn_generate">توليد</string>
+    <string name="alert_title">تحذير!</string>
+    <string name="alert_msg">هذا يعمل فقط إذا كنت متصلا.</string>
     <string name="txt_description">اضغط تولد لإنشاء كلمة مرور جديدة</string>
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;طول كلمة السر</string>

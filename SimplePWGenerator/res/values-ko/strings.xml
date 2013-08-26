@@ -7,6 +7,8 @@
     <string name="title_section2">설정</string>
     <string name="title_section3">노트</string>
     <string name="btn_generate">생성</string>
+    <string name="alert_title">경고!</string>
+    <string name="alert_msg">이것은 당신이 연결하는 경우에만 작동합니다.</string>
     <string name="txt_description">새 암호를 만들려면 생성을 눌러</string>
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;암호 길이</string>

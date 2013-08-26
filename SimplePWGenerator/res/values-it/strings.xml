@@ -9,6 +9,8 @@
     
     <string name="btn_generate">GENERA</string>
     <string name="txt_description">Premi GENERA per creare una nuova Password</string>
+    <string name="alert_title">Attenzione!</string>
+    <string name="alert_msg">Funziona solo se connessi.</string>
     
     <string name="value16">16</string>
     <string name="txt_pw_length">&#160;&#160;Lunghezza Password</string>
