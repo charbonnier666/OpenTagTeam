@@ -172,12 +172,12 @@ public class MainActivity extends BaseGameActivity implements MainMenuFragment.L
 
 	@Override
 	public void onWinScreenDismissed() {
-		// TODO Auto-generated method stub
+		mViewPager.setCurrentItem(0);
 	}
 
 	@Override
 	public void onWinScreenSignInClicked() {
-		// TODO Auto-generated method stub
+		beginUserInitiatedSignIn();
 	}
 
 	@Override
@@ -203,22 +203,40 @@ public class MainActivity extends BaseGameActivity implements MainMenuFragment.L
 
 	@Override
 	public void onShowAchievementsRequested() {
-		// TODO Auto-generated method stub
+		if (isSignedIn()) {
+			startActivityForResult(getGamesClient().getAchievementsIntent(), RC_UNUSED);
+		} else {
+			showAlert(getString(R.string.achievements_not_available));
+		}
 	}
 
 	@Override
 	public void onShowLeaderboardsRequested() {
-		// TODO Auto-generated method stub
+		if (isSignedIn()) {
+			startActivityForResult(getGamesClient().getAllLeaderboardsIntent(), RC_UNUSED);
+		} else {
+			showAlert(getString(R.string.leaderboards_not_available));
+		}
 	}
 
 	@Override
 	public void onSignInButtonClicked() {
-		// TODO Auto-generated method stub
+		// check if developer read the documentation!
+		// (Note: in a production application, this code should NOT exist)
+		if (!verifyPlaceholderIdsReplaced()) {
+			showAlert("Sample not set up correctly. See README.");
+			return;
+		}
+		// start the sign-in flow
+		beginUserInitiatedSignIn();
 	}
 
 	@Override
 	public void onSignOutButtonClicked() {
-		// TODO Auto-generated method stub
+		signOut();
+		mMainMenuFragment.setGreeting(getString(R.string.signed_out_greeting));
+		mMainMenuFragment.setShowSignInButton(true);
+		mWinFragment.setShowSignInButton(true);
 	}
 
 	/**
@@ -297,6 +315,27 @@ public class MainActivity extends BaseGameActivity implements MainMenuFragment.L
 		if (!isSignedIn()) {
 			Toast.makeText(this, getString(R.string.achievement) + ": " + achievement, Toast.LENGTH_LONG).show();
 		}
+	}
+
+	/**
+	 * Checks that the developer (that's you!) read the instructions.
+	 * 
+	 * IMPORTANT: a method like this SHOULD NOT EXIST in your production app! It merely exists here to check that anyone running THIS PARTICULAR
+	 * SAMPLE did what they were supposed to in order for the sample to work.
+	 */
+	boolean verifyPlaceholderIdsReplaced() {
+		final boolean CHECK_PKGNAME = true; // set to false to disable check (not recommended!)
+		// Did the developer forget to change the package name?
+		if (CHECK_PKGNAME && (getPackageName().startsWith("com.google.example.")))
+			return false;
+		// Did the developer forget to replace a placeholder ID?
+		int res_ids[] = new int[] { R.string.app_id, R.string.achievement_arrogant, R.string.achievement_bored, R.string.achievement_humble,
+				R.string.achievement_leet, R.string.achievement_prime, R.string.leaderboard_easy, R.string.leaderboard_hard };
+		for (int i : res_ids) {
+			if (getString(i).equalsIgnoreCase("ReplaceMe"))
+				return false;
+		}
+		return true;
 	}
 
 	/**
