@@ -23,9 +23,9 @@
         android:layout_below="@+id/imageView1"
         android:layout_centerHorizontal="true"
         android:layout_margin="7dp"
-        android:layout_marginTop="40dp"
         android:text="@string/about"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -35,10 +35,11 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/textView1"
         android:layout_margin="7dp"
-        android:text="@string/about2"
-        android:textIsSelectable="true"
         android:autoLink="web"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:text="@string/about2"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textIsSelectable="true"
+        android:textSize="15sp" />
 
     <com.google.ads.AdView
         xmlns:googleads="http://schemas.android.com/apk/lib/com.google.ads"

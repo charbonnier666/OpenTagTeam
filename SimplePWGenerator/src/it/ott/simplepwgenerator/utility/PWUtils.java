@@ -64,7 +64,9 @@ public final class PWUtils {
 		int max = length / 2;
 		for (int i = 0; i < quotes.size(); i++) {
 			if (quotes.get(i).length() > 1) {
-				password.append(Character.toUpperCase(quotes.get(i).charAt(0))).append(quotes.get(i).substring(1));
+				String quote = quotes.get(i);
+				quote = quote.replaceAll("\\W", "");
+				password.append(Character.toUpperCase(quote.charAt(0))).append(quote.substring(1));
 				if (password.length() > max)
 					break;
 			}
